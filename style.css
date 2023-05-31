@@ -1,0 +1,240 @@
+.wraper{
+    border: 1px solid black;
+    min-height: 300px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+body{
+    font-family: 'Scotch Deck';
+    background-color: #B1464A;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    align-items: center;    
+    border-bottom: 1px solid white;
+}
+
+.logo{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main_menu a{
+    color: white;
+    display: block;
+}
+
+.main_menu{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.shoppingicons{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.product{
+    position: relative;
+    height: 767px;
+    left: 0px;
+    top: 0px;
+}
+
+.product h1{
+    text-align: center;
+    color: white;
+    font-size: 110px;
+    font-weight: 700;
+    font-family: 'Scotch Deck';
+    display: block;
+}
+
+.logochips{
+    width: 480px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 26%;
+}
+
+.social img{
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin-right: -10px;
+}
+
+.social{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+
+}
+
+.review{
+    margin-left: 20px;
+}
+
+.allitem{
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    padding: 14px 28px;
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: #B1464A;
+}
+
+.community .item{
+    margin: 32px 0px;
+}
+
+button img{
+    display: block;
+    margin-left: 16px;
+}
+
+.exp{
+    display: flex;
+    width: 168px;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    right: 0px;
+    top: 382px;
+}
+
+.exp .icon{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 12px;
+    margin-right: 16px;
+    padding: 0px;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+.exp img{
+    display: block;
+    margin: auto ;
+}
+
+.rot{
+    display: block;
+    position: absolute;
+    right: 178px;
+    top: 208px;
+}
+
+.backwhite{
+    background-color: #ffffff;
+    position: absolute;
+    left: -20%;
+    top: 767px;
+    width: 140%;
+    height: 1300px;
+    z-index: -1;
+    border-top-left-radius: 1000em 300em;
+    border-top-right-radius: 1000em 300em;
+}
+
+.nav_but{
+    display: flex;
+    width: 268px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_but img{
+    display: block;
+}
+
+.middle{
+    width: 18px;
+    height: 18px;
+}
+
+.s{
+    width: 95px;
+    height: 0px;
+}
+
+.our_review{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.k{
+    display: flex;
+    background-color: #FFF0DE;
+    width: 50%;
+    justify-content: space-between;
+    height: 242px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.see{
+    width: 50%;
+}
+
+.rkr{
+    width: 113px;
+    height: 74px;
+    font-family: 'Scotch Deck';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 62px;
+    line-height: 74px;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sor{
+    height: 38px;
+    font-family: 'Scotch Deck';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 38px;
+    gap: 90px;
+    isolation: isolate;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.products p{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+}
+
+.see{
+    margin-left: 90px;
+}
